@@ -9,13 +9,11 @@
         <div class="top">
           <div class="header">
             <a href="/">
-              <img src="~@/assets/logo.svg" class="logo" alt="logo">
-              <span class="title">Ant Design</span>
             </a>
           </div>
-          <div class="desc">
-            {{ $t('layouts.userLayout.title') }}
-          </div>
+          <!--          <div class="desc">-->
+          <!--            {{ $t('layouts.userLayout.title') }}-->
+          <!--          </div>-->
         </div>
 
         <router-view />
@@ -27,7 +25,7 @@
             <a href="_self">条款</a>
           </div>
           <div class="copyright">
-            Copyright &copy; 2018 vueComponent
+            https://github.com/xiaokak/boe
           </div>
         </div>
       </div>
@@ -139,7 +137,6 @@ export default {
 
       .main {
         min-width: 260px;
-        width: 368px;
         margin: 0 auto;
       }
 
